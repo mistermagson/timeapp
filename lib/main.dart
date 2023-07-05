@@ -46,7 +46,7 @@ class _WebViewAppState extends State<WebViewApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Plantao App'),
+        title: const Text('Time Educacional App'),
       ),
       body: WebViewWidget(controller: controller),
     );
