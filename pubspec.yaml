@@ -37,6 +37,16 @@ dependencies:
   cupertino_icons: ^1.0.2
   webview_flutter: ^4.2.2
 
+flutter_launcher_icons:
+  image_path: "assets/images/logo-azul.png"
+  android: true # can specify file name here e.g. "ic_launcher"
+  ios: true # can specify file name here e.g. "My-Launcher-Icon"
+  remove_alpha_ios: true
+  background_color_ios: "#ffffff"
+    #  adaptive_icon_background: "assets/images/christmas-background.png" # only available for Android 8.0 devices and above
+    #  adaptive_icon_foreground: "assets/images/icon-foreground-432x432.png" # only available for Android 8.0 devices and above
+    #min_sdk_android: 21  android min sdk min:16, default 21
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -89,12 +99,4 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
-flutter_launcher_icons:
-  image_path: "assets/images/logo-azul.png"
-  android: true # can specify file name here e.g. "ic_launcher"
-  ios: true # can specify file name here e.g. "My-Launcher-Icon"
-  #  adaptive_icon_background: "assets/images/christmas-background.png" # only available for Android 8.0 devices and above
-  #  adaptive_icon_foreground: "assets/images/icon-foreground-432x432.png" # only available for Android 8.0 devices and above
-  min_sdk_android: 21  android min sdk min:16, default 21
-  remove_alpha_ios: true
-  background_color_ios: "#ffffff"
+
