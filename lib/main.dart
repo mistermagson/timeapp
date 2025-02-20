@@ -39,14 +39,14 @@ class _WebViewAppState extends State<WebViewApp> {
       ),
     )
 
-    ..loadRequest(Uri.parse('https://ip.timeeducacional.com.br/dashboard'));
+    ..loadRequest(Uri.parse('https://coral-app-gp29h.ondigitalocean.app/'));
 
 
 
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Time Educacional App'),
+        title: const Text('FisIA App'),
       ),
       body: WebViewWidget(controller: controller),
     );
